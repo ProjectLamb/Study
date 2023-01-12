@@ -13,5 +13,6 @@
 
 ## 목차 
 
-1. #### [패키지 설명](./Package/README.md)
-2. #### [테크니컬 아티스트를 위한 툴]()
+1. #### [개발 세팅](./Setup/README.md)
+2. #### [패키지 설명](./Package/README.md)
+3. #### [테크니컬 아티스트를 위한 툴](./TechnicalArtist/README.md)

@@ -23,7 +23,9 @@
 3. #### [비동기 프로그래밍](https://learn.microsoft.com/ko-kr/dotnet/csharp/programming-guide/concepts/async/)
    * async
    * 코루틴
+   * [데브 시스터즈](https://tech.devsisters.com/posts/crunchy-concurrency-swift/)
 
-4. #### [C# 기본]()
+4. #### [언어론]()
    * 자료구조, 타입
+   * [데브 시스터즈 타입 이론](https://tech.devsisters.com/posts/programming-languages-1-type-theory)
    * 연산자.
