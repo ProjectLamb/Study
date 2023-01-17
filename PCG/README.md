@@ -10,7 +10,7 @@
 ### 3. 응용
 #### 1. 스테이지 생성
 
-##### 구상
+#### 구상
 [참고 사이트](https://www.boristhebrave.com/2020/09/12/dungeon-generation-in-binding-of-isaac/)
 - 소피아 프로젝트가 아이작의 맵 생성 기법을 모티브로 함으로 아이작 원본 코드를 벤치마크했다. 
 - 스테이지내 방이 절차적으로 생성되도록 아래와 같이 조건을 붙인다.
@@ -21,8 +21,8 @@
 -   50% 확률로 포기합니다.
 -   그 외 경우, 인접 칸에 방을 만들고, 해당 칸을 큐에 넣습니다.
 ```
-
-##### 구현
+---
+#### 구현
 
 이를 소스코드로 구현하면 다음과 같다.
 ```C++
@@ -44,7 +44,7 @@ if (!room[num].vacancy)
 ```
 
 [전체 소스코드](https://github.com/ProjectLamb/SourceCode/blob/neoskyclad/PCG/Stage/PCG_Stage.cpp)
-
-##### 결과
-![[PCG_Stage_Result.png]]
+---
+#### 결과
+<img src="https://github.com/ProjectLamb/Study/blob/neoskyclad/image/PCG_Stage_Result.png?raw=true"/>
 #### 2. 맵 생성
