@@ -11,7 +11,7 @@
 ---
 ## 🧠 알고리즘
 
-### 1. [절차적 생성(PCG)](Study/PCG/README)
+### 1. [절차적 생성(PCG)](https://github.com/ProjectLamb/Study/tree/neoskyclad/PCG)
 
 
 
