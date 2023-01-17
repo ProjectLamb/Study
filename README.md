@@ -62,7 +62,7 @@ git commit -am "Fetch : escatrgot_dev <- main"  /*4. 커밋하기*/
 
 
 ---
-## 🔖 에셋 
+## 🔖 에셋 스터디
 [필수 에셋 정리](https://tagilog.tistory.com/914)
 
 #### 1.[DOTween](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676)
