@@ -58,7 +58,7 @@ git commit -am "Fetch : escatrgot_dev <- main"  /*4. 커밋하기*/
 
 ## 🧠 알고리즘 스터디
 
-### 1. [절차적 생성(PCG)](Study/PCG/README)
+### 1. [절차적 생성(PCG)](https://github.com/ProjectLamb/Study/tree/neoskyclad/PCG)
 
 
 ---
