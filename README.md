@@ -6,9 +6,10 @@
 ---
 ## 목차
 
-- [깃허브 관리](#깃허브-관리)
-- [알고리즘 스터디](#알고리즘-스터디)
-- [에셋 스터디](#에셋-스터디)
+- [깃허브 관리](#-깃허브-관리)
+- [알고리즘 스터디](#-알고리즘-스터디)
+- [에셋 스터디](#-에셋-스터디)
+- [유니티 API 스터디](#-유니티-api-스터디)
 
 #### 폴더목차
 - [CS 스터디](./CS_전공지식/README.md)
@@ -58,9 +59,13 @@ git commit -am "Fetch : escatrgot_dev <- main"  /*4. 커밋하기*/
 
 ## 🧠 알고리즘 스터디
 
-#### 1. 절차적 맵 생성(PCG)
- - 로그라이크에서 주로 사용되는 맵 생성 기법에 대해서 배워본다.
-#### 2. 
+### 1. [절차적 생성(PCG)](https://github.com/ProjectLamb/Study/tree/neoskyclad/PCG)
+
+
+---
+## 🎃 유니티 API 스터디
+
+[유니티 API 정리](https://github.com/ProjectLamb/Study/tree/hobak/Unity/Unity%20Api)
 
 ---
 ## 🔖 에셋 스터디
