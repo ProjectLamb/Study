@@ -62,6 +62,11 @@ git commit -am "Fetch : escatrgot_dev <- main"  /*4. 커밋하기*/
 
 
 ---
+## 🎃 유니티 API 스터디
+
+[유니티 API 정리](https://github.com/ProjectLamb/Study/tree/hobak/Unity/Unity%20Api)
+
+---
 ## 🔖 에셋 스터디
 [필수 에셋 정리](https://tagilog.tistory.com/914)
 
