@@ -9,6 +9,7 @@
 - [깃허브 관리](#-깃허브-관리)
 - [알고리즘 스터디](#-알고리즘-스터디)
 - [에셋 스터디](#-에셋-스터디)
+- [유니티 API 스터디](#-유니티-api-스터디)
 
 #### 폴더목차
 - [CS 스터디](./CS_전공지식/README.md)
@@ -60,6 +61,11 @@ git commit -am "Fetch : escatrgot_dev <- main"  /*4. 커밋하기*/
 
 ### 1. [절차적 생성(PCG)](https://github.com/ProjectLamb/Study/tree/neoskyclad/PCG)
 
+
+---
+## 🎃 유니티 API 스터디
+
+[유니티 API 정리](https://github.com/ProjectLamb/Study/tree/hobak/Unity/Unity%20Api)
 
 ---
 ## 🔖 에셋 스터디
