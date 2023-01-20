@@ -98,16 +98,12 @@
        * UI나 단순한 애니메이션에는 항상 레거시 Animation 컴포넌트를 사용하세요.  
    * 블랜더
    * 리깅
-
-후디니
-https://product.kyobobook.co.kr/detail/S000001888139
 ```
 
 ```text
 오디오싱크글1 : https://styly.cc/tips/unity-timeline-music-sync/
 오디오싱크글2 : https://justenyc.medium.com/how-to-sync-actions-with-audio-in-unity-6cdb57dd02fb
 오디오싱크글3 : https://christianfloisand.wordpress.com/2014/01/23/beat-synchronization-in-unity/
-
 ```
 ![](2023-01-03-16-28-53.png) 
 ### 참조
