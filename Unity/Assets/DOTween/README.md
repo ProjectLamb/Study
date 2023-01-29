@@ -40,13 +40,19 @@ transform.DOMoveZ(...);
 ```
 
 - DOMove()
-![[DOMove.gif]]
+<figure>
+    <img src="https://github.com/ProjectLamb/Study/blob/neoskyclad/Unity/Assets/DOTween/_image/DOMove.gif?raw=true">
+</figure>
 
 - DORotate()
-![[DORotate.gif]]
+<figure>
+    <img src="https://github.com/ProjectLamb/Study/blob/neoskyclad/Unity/Assets/DOTween/_image/DORotate.gif?raw=true">
+</figure>
 
 - DOShake()
-![[DOShake.gif]]
+<figure>
+    <img src="https://github.com/ProjectLamb/Study/blob/neoskyclad/Unity/Assets/DOTween/_image/DOShake.gif?raw=true">
+</figure>
 
 2) Material : 오브젝트의 **컬러값, 알파값**등을 일정 시간동안 부드럽게 변환한다.
 ```C#
@@ -55,7 +61,9 @@ Renderer.Material.DOFade(float 목표값, float 변화시간);
 ```
 
 - DOColor();
-![[DOColor.gif]]
+<figure>
+    <img src="https://github.com/ProjectLamb/Study/blob/neoskyclad/Unity/Assets/DOTween/_image/DOColor.gif?raw=true">
+</figure>
 
 3) Text : 일정 시간동안 텍스트가 타이핑되는 효과를 준다.
 ```C#
@@ -63,13 +71,16 @@ Text.DoText(string 전체텍스트, float 변화시간);
 ```
 
 <span style="color: #808080">UI나 텍스트 박스에 다음과 같이 활용할 수 있다. </span>
-![[DOText.gif]]
+<figure>
+    <img src="https://github.com/ProjectLamb/Study/blob/neoskyclad/Unity/Assets/DOTween/_image/DOText.gif?raw=true">
+</figure>
 
 ### 2. 용어
 #### 1) Tweener
 트위너는 DOTween의 일하는 **개미**에 비유할 수 있다. **속성/필드**를 가져와 주어진 값을 향해 **애니메이션화**한다.
 
 #### 2) Ease
-![[DOTween Ease tablet.png]]
-
-### 3. 함수
+<figure>
+    <https://github.com/ProjectLamb/Study/blob/neoskyclad/Unity/Assets/DOTween/_image/DOTween%20Ease%20tablet.png?raw=true
+### 3. 함수">
+</figure>
