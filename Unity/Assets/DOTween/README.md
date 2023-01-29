@@ -82,5 +82,6 @@ Text.DoText(string 전체텍스트, float 변화시간);
 #### 2) Ease
 <figure>
     <https://github.com/ProjectLamb/Study/blob/neoskyclad/Unity/Assets/DOTween/_image/DOTween%20Ease%20tablet.png?raw=true
-### 3. 함수">
 </figure>
+
+### 3. 함수">
