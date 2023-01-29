@@ -59,7 +59,7 @@ git commit -am "Fetch : escatrgot_dev <- main"  /*4. 커밋하기*/
 
 ## 🧠 알고리즘 스터디
 
-### 1. [절차적 생성(PCG)](https://github.com/ProjectLamb/Study/tree/neoskyclad/PCG)
+### 1. [절차적 생성(PCG)](https://github.com/ProjectLamb/Study/tree/main/PCG)
 
 
 ---
@@ -71,7 +71,7 @@ git commit -am "Fetch : escatrgot_dev <- main"  /*4. 커밋하기*/
 ## 🔖 에셋 스터디
 [필수 에셋 정리](https://tagilog.tistory.com/914)
 
-#### 1.[DOTween](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676)
+#### 1.[DOTween](https://github.com/ProjectLamb/Study/tree/main/Unity/Assets)
 <img src="https://assetstorev1-prd-cdn.unity3d.com/key-image/d28cf7c5-1e07-4494-81e3-bc3ca7539da6.webp" width="300" height="150"/>
 
 - object-oriented animation engine이다.
