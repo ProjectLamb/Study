@@ -39,13 +39,13 @@
 
 |파일관점|코드관점|
 |---|---|
-|<img src="./image/Exe.png">|<img src="./image/CodeAss.png">|
+|<img src="https://imgur.com/oYuHPjN.png">|<img src="https://imgur.com/YPAjRiL.png">|
 |***다른 exe라서***|***다른 프로젝트라서***|
 
 <h4 style="text-align: center;"> 우측 솔루션에 두개의 각각 코드의 Namespace가 다른것을 확인 할 수 있다.</h4>
 
 <p align="center">
-    <img src="./image/Namespace.png" width=700px>
+    <img src="https://imgur.com/x6DGovP.png" width=700px>
 </p>
 
 ---
@@ -54,9 +54,8 @@
 
 <h4 style="text-align: center;">Namespace가 같은것이 같은 어셈블리이다.</h4>
 
-
 <p align="center">
-    <img src="./image/NamespaceProject.png">
+    <img src="https://imgur.com/3BTOqUv.png">
 </p>
 
 ### 📄 5. 결론
@@ -109,12 +108,12 @@
 ```
 
 <p align="center">
-    <img src="./image/다른어셈블리어에있는클래스를가져온다.gif" width=900px>
+    <img src="https://imgur.com/WtS8dDc.gif" width=900px>
 </p>
 
 |전|후|
 |---|---|
 ||<code>using static Mobs;<code> 가 생김|
-|<img src="./image/2022-12-24-18-33-38.png">|<img src="./image/2022-12-24-18-34-08.png">|
+|<img src="https://imgur.com/z0WwPxD.png">|<img src="https://imgur.com/45i6aTG.png">|
 
 #### namespace가 없고, Public으로 정의된 클래스는 어디서든 접근이 진짜 가능하구나..

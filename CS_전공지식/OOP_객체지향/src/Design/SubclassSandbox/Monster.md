@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="2022-12-30-17-19-34.png" width=500px>
+  <img src=https://imgur.com/KPfIgsw.png width=800px>
 </p>
 
 
 <p align="center">
-  <img src="2022-12-30-17-19-05.png" width=500px>
+  <img src=https://imgur.com/x0OKkoe.png width=800px>
 </p>
 
 ```cs
@@ -55,7 +55,7 @@ public class Ghoul : Monster{
 멈추는 방법을 도입하여 각 몬스터에게 좀 더 유연하게 움직일 수 있도록 합시다. 
 
 <p align="center">
-  <img src="2022-12-30-17-32-18.png" width=500px>
+  <img src=https://imgur.com/10h18QX.png width=800px>
 </p>
 
 ```cs
@@ -111,7 +111,7 @@ public class Ghoul : Monster{
 ```
 
 <p align="center">
-  <img src="2022-12-30-17-37-47.png" width=500px>
+  <img src=https://imgur.com/yXsOrZi.png width=800px>
 </p>
 
 ```cs

@@ -11,7 +11,7 @@ public class Singleton {
 }
 
 //GameObject로 사용
-public class _className_ : monoBehavier {
+public class _className_ : MonoBehavier {
     private static _className_ _instance;
 
     public static _className_ Instanace {

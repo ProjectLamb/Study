@@ -1,6 +1,6 @@
 ---
 ebook:
-  theme: github-light.css
+  theme: one-dark.css
   title: 객체지향
   authors: Escatrgot
   disable-font-rescaling: true
@@ -15,7 +15,7 @@ ebook:
 
 ## 응집도와 결합도
 
-![](2022-05-02-17-24-20.png)
+![](https://imgur.com/9cZBD3J.png)
 
 ### 1. 응집도
 * 모듈내부 요소들간의 연관성 척도
@@ -30,3 +30,6 @@ A모듈이 아닌 곳에 a 기능 들이 흩어져 있다던가 또는 A 모듈�
 * 낮을 수록 좋아요 ❤️
 
 결합도가 높으면 변경하고 검토해야되는 모듈 수가 많아지는 단점이 있으니, 결합도는 낮을수록 검토해야되는 소스의 수가 적어져서 코드를 수정하기가 쉬워집니다.
+
+### 3. 참고
+https://medium.com/@jang.wangsu/%EC%84%A4%EA%B3%84-%EC%9A%A9%EC%96%B4-%EC%9D%91%EC%A7%91%EB%8F%84%EC%99%80-%EA%B2%B0%ED%95%A9%EB%8F%84-b5e2b7b210ff
