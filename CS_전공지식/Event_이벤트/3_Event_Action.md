@@ -1,6 +1,6 @@
 ---
 ebook:
-  theme: github-light.css
+  theme: one-dark.css
   title: 객체지향
   authors: Escatrgot
   disable-font-rescaling: true
@@ -17,7 +17,7 @@ ebook:
     h4 { font-weight: bold; color: #FFF !important; }
 </style>
 
-## 💡 2. Event Action 대리자
+## 💡 3. Event Action 대리자
 
 ### 📄 1. Action 대리자
 > 리턴값이없는 프로스저를 캡슐화 하는대리자를 정의한다.

@@ -1,6 +1,6 @@
 ---
 ebook:
-  theme: github-light.css
+  theme: one-dark.css
   title: 객체지향
   authors: Escatrgot
   disable-font-rescaling: true
@@ -57,7 +57,7 @@ ebook:
 #### 3). 키워드 
 \#델리게이트 타입 \#델리게이트 변수 \#함수 대입 \#각기 다른 함수를 그룹(래핑)
 
-### 2. 함수를 담는 타입 : (Delegate types)
+### 📄 2. 함수를 담는 타입 : (Delegate types)
 #### 1). 델리게이트 Type선언 예시
 ```cs
 public delegate int Comparsion<int T>(T left, T right);
@@ -70,7 +70,7 @@ public delegate int Comparsion<int T>(T left, T right);
     2. 함수의 매개변수는 T left, T right 같은 패러미터를 받는 함수여야 한다.
 ```
 
-### 3. Delegate Type 변수 : (Delegate Instance)
+### 📄 3. Delegate Type 변수 : (Delegate Instance)
 #### 1). 델리게이트 변수 만들기 예시
 ```cs
 public Comparsion<T> comp;
@@ -80,7 +80,7 @@ public Comparsion<T> comp;
 
 ##### 이 델리게이트 변수는 함수처럼 사용될 수 있다.
 
-### 4. 변수(Delegate Instance)에 함수 대입 : (Invoke delegates)
+### 📄 4. 변수(Delegate Instance)에 함수 대입 : (Invoke delegates)
 #### 1). 델리게이트 변수에 함수 대입 예시
 ```cs
 int compareFunction(string left, string right) {
@@ -101,7 +101,7 @@ int result = comp;
  }
 ```
 
-### 5. 대리자 배열
+### 📄 5. 대리자 배열
 #### 1). 대리자를 배열처럼 사용하는 예시
 ```cs
 delegate int intOp(int a, int b);
@@ -118,7 +118,7 @@ int addResult = arOp[0](10, 20);
 int mulResult = arOp[1](10, 20);
 ```
 
-### 6 대리자 타입을 패러미터로 사용
+### 📄 6 대리자 타입을 패러미터로 사용
 #### 1). 함수의 인풋을 대리자 타입으로 해보자.
  ```cs
  1. 대리자 타입 만들기
@@ -210,7 +210,7 @@ namespace DelegateExample
  ```
 </details>
 
-### 7 델리게이트 체인 (Multicast Delegates)
+### 📄 7 델리게이트 체인 (Multicast Delegates)
 #### 1). 하나의 대리자로 "여러개의 함수를 그룹(래핑)화" 시키는 예시
 ```cs
 delegate void ThereIsAFire(string location);
@@ -258,7 +258,7 @@ allMethodsDelegate += d3;
 
 #### 3). 반대로 호출 목록에서 메서드를 제거하려면 - 또는 -=를 사용합니다.
 
-### 같이 읽어볼 사실
+### 📄 같이 읽어볼 사실
 #### 1). Delegate 및 MulticastDelegate 클래스
 1. delegate 한정자는 Delegate 및 MulticastDelegate를 기반으로 빌드됩니다.
 2. 모든 대리자는 MulticastDelegate에서 파생된다.
