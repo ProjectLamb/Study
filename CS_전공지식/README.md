@@ -16,7 +16,7 @@
    * 객체지향 기본과 문법
    * 디자인 패턴
    * UML 다이어그램
-2. #### [대리자 & 이벤트](https://learn.microsoft.com/ko-kr/dotnet/csharp/delegates-overview)
+2. #### [대리자 & 이벤트](./Event_이벤트/README.md)
    * 델리게이트
    * 이벤트 지향 아키텍쳐 (Event Driven Architecture)
 

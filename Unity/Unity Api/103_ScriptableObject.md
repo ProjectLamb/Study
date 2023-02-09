@@ -231,7 +231,7 @@ namespace Zooports.Event
                     Event.OnServerUnregisterListener(this);
                     break;
                 case EventListenerType.Client:
-                    Event.OnClientUnregisterListener(this);
+                    Event.OnClientUnregisterListener`(this);
                     break;
                 case EventListenerType.Local:
                     Event.OnLocalClientUnregisterListener(this);
