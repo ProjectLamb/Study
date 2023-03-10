@@ -33,7 +33,7 @@ namespace State.Menu
                 if (menu == null) {continue;}
 
                 //Inject a reference to this script into all menus
-                menu.InitState(menuController: this);
+                menu.InitState(menuController : this);
 
                 //Check if this key already exists, because it means we have forgotten to give a menu its unique key
                 if (menuDictionary.ContainsKey(menu.state))
@@ -68,27 +68,6 @@ namespace State.Menu
         }
 
 
-
-        //Jump back one step = what happens when we press escape or one of the back buttons
-        public void JumpBack()
-        {
-            //If we have just one item in the stack then, it means we are at the state we set at start, so we have to jump forward
-            if (stateHistory.Count <= 1)
-            {
-                SetActiveState(MenuState.Main);
-            }
-            else
-            {
-                //Remove one from the stack
-                stateHistory.Pop();
-
-                //Activate the menu that's on the top of the stack
-                SetActiveState(stateHistory.Peek(), isJumpingBack: true);
-            }
-        }
-
-
-
         //Activate a menu
         public void SetActiveState(MenuState newState, bool isJumpingBack = false)
         {
@@ -115,6 +94,25 @@ namespace State.Menu
             if (!isJumpingBack)
             {
                 stateHistory.Push(newState);
+            }
+        }
+
+
+        //Jump back one step = what happens when we press escape or one of the back buttons
+        public void JumpBack()
+        {
+            //If we have just one item in the stack then, it means we are at the state we set at start, so we have to jump forward
+            if (stateHistory.Count <= 1)
+            {
+                SetActiveState(MenuState.Main);
+            }
+            else
+            {
+                //Remove one from the stack
+                stateHistory.Pop();
+
+                //Activate the menu that's on the top of the stack
+                SetActiveState(stateHistory.Peek(), isJumpingBack: true);
             }
         }
 

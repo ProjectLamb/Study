@@ -1,7 +1,7 @@
 ---
 ebook:
   theme: one-dark.css
-  title: 객체지향
+  title: 이벤트지향
   authors: Escatrgot
   disable-font-rescaling: true
   margin: [0.1, 0.1, 0.1, 0.1]
@@ -10,12 +10,13 @@ ebook:
     h3.quest { font-weight: bold; border: 3px solid; color: #A0F !important;}
     .quest { font-weight: bold; color: #A0F !important;}
 
-    h2 { border-top: 12px solid #67CCCF; border-left: 5px solid #67CCCF; border-right: 5px solid #67CCCF; background-color: #67CCCF; color: #FFF !important; font-weight: bold;}
+    h2 { border-top: 12px solid #D8D241; border-left: 5px solid #D8D241; border-right: 5px solid #D8D241; background-color: #D8D241; color: #FFF !important; font-weight: bold;}
 
-    h3 { border-top: 3px solid #FFF; border: 2px solid #FFF; background-color: #FFF; color: #0075C4 !important;}
+    h3 { border-top: 3px solid #FFF; border: 2px solid #FFF; background-color: #FFF; color: #C4B000 !important;}
 
     h4 { font-weight: bold; color: #FFF !important; }
 </style>
+
 
 ## 💡 2. Event 델리게이트
 
@@ -243,7 +244,7 @@ ThereIsAFire Fire = (ThereIsAFire) Delegate.Combine(
                    );
 ```
 
-#### 2). 객체 매서드를 "그룹(래핑)화" 시키는 예시
+#### 2). 객체 메서드를 "그룹(래핑)화" 시키는 예시
 ```cs
 var obj = new MethodClass();
 Del d1 = obj.Method1; Del d2 = obj.Method2;
@@ -263,5 +264,5 @@ allMethodsDelegate += d3;
 1. delegate 한정자는 Delegate 및 MulticastDelegate를 기반으로 빌드됩니다.
 2. 모든 대리자는 MulticastDelegate에서 파생된다.
 
-### 3. Invoke & BeginInvoke / EndInvoke
+### 📄 3. Invoke & BeginInvoke / EndInvoke
 https://m.blog.naver.com/isaac7263/222162479809
