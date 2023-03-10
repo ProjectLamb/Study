@@ -1,7 +1,7 @@
 ---
 ebook:
   theme: one-dark.css
-  title: 객체지향
+  title: 이벤트지향
   authors: Escatrgot
   disable-font-rescaling: true
   margin: [0.1, 0.1, 0.1, 0.1]
@@ -10,9 +10,9 @@ ebook:
     h3.quest { font-weight: bold; border: 3px solid; color: #A0F !important;}
     .quest { font-weight: bold; color: #A0F !important;}
 
-    h2 { border-top: 12px solid #67CCCF; border-left: 5px solid #67CCCF; border-right: 5px solid #67CCCF; background-color: #67CCCF; color: #FFF !important; font-weight: bold;}
+    h2 { border-top: 12px solid #D8D241; border-left: 5px solid #D8D241; border-right: 5px solid #D8D241; background-color: #D8D241; color: #FFF !important; font-weight: bold;}
 
-    h3 { border-top: 3px solid #FFF; border: 2px solid #FFF; background-color: #FFF; color: #0075C4 !important;}
+    h3 { border-top: 3px solid #FFF; border: 2px solid #FFF; background-color: #FFF; color: #C4B000 !important;}
 
     h4 { font-weight: bold; color: #FFF !important; }
 </style>
@@ -169,7 +169,7 @@ link : [인터럽트(Interrupt) & 디스패처(Dispatcher)](https://www.crocus.c
     ```
 
 ### 📄 5-2 C# 예제
-이벤트와 매서드를 연결시킨다는 점에서 동일.
+이벤트와 메서드를 연결시킨다는 점에서 동일.
 
 이벤트 구독 (Event Subscribe) : 이벤트 발생하면 실행하는 콜백쪽
 * 이벤트를 구독하기 위해 += 연산자 사용
@@ -198,3 +198,10 @@ link : [인터럽트(Interrupt) & 디스패처(Dispatcher)](https://www.crocus.c
 1. https://jaehun2841.github.io/2019/06/23/2019-06-23-event-driven-architecture/#Event-Driven-%EB%9E%80
 2. https://medium.com/dtevangelist/event-driven-microservice-%EB%9E%80-54b4eaf7cc4a
 3. https://www.confluent.io/designing-event-driven-systems/?utm_medium=sem&utm_source=google&utm_campaign=ch.sem_br.nonbrand_tp.prs_tgt.content-search_mt.mbm_rgn.apac_lng.eng_dv.all_con.deds&utm_term=%2Bevent%20%2Bdriven%20%2Bsystem&creative=&device=c&placement=&gclid=CjwKCAjw1ICZBhAzEiwAFfvFhP2MBmx33hJh2QfDqqhlE9OgwDOVLbO223zfmmVvBSJZa01PqXMVrBoC9SsQAvD_BwE
+
+```cs
+Dir * moveSpeed;
+Vector3 Dir = Vector3.forword * Input.GetAxis("Vertical") + Vector3.right * Input.GetAxis("Horizental");
+
+transform.Translate(Dir);
+```

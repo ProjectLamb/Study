@@ -5,14 +5,32 @@
 ## 개요
 
 * Ta가 배워야할 목차를 정리함.
-* 그래픽, 이펙트, Audio에 대해 정리
+  * URP
+  * Effect
+    * Shader
+  * UI
+    * UI Tool Kit
+    * Pattern
+  * Light
+  * Camera
+
+  * 음악
+    * FMOD
+
+
 
 ## 목차 
 
-1. #### [타임라인](./Timeline/README.md)
-2. #### [Effect](./Effect/README.md)
-3. #### [FMOD](./FMOD/README.md)
+### 1). 그래픽스
+1. #### [Light](./Light/README.md)
+2. #### [Particles](./Effect/README.md)
+3. #### [Shader](./Shader/README.md)
 
+### 2). 오디오
+1. #### [FMOD](./FMOD/README.md)
+
+### 3). 시네마
+1. #### [Timeline](./Timeline/README.md)
 ```
 쉐이더, lookdev, 최적화, 문제해결
 

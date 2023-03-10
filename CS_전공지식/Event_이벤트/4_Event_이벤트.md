@@ -1,33 +1,33 @@
 ---
 ebook:
-  theme: github-light.css
-  title: 객체지향
+  theme: one-dark.css
+  title: 이벤트지향
   authors: Escatrgot
   disable-font-rescaling: true
   margin: [0.1, 0.1, 0.1, 0.1]
 ---
-
 <style>
     h3.quest { font-weight: bold; border: 3px solid; color: #A0F !important;}
     .quest { font-weight: bold; color: #A0F !important;}
 
-    h2 { border-top: 12px solid #67CCCF; border-left: 5px solid #67CCCF; border-right: 5px solid #67CCCF; background-color: #67CCCF; color: #FFF !important; font-weight: bold; }
+    h2 { border-top: 12px solid #D8D241; border-left: 5px solid #D8D241; border-right: 5px solid #D8D241; background-color: #D8D241; color: #FFF !important; font-weight: bold;}
 
-    h3 { border-top: 3px solid #FFF; border: 2px solid #FFF; background-color: #FFF; color: #0075C4 !important;}
+    h3 { border-top: 3px solid #FFF; border: 2px solid #FFF; background-color: #FFF; color: #C4B000 !important;}
 
     h4 { font-weight: bold; color: #FFF !important; }
 </style>
 
+
 ## 💡 4-2 Event 소개
 #### 이벤트를 발생시키면 그 이벤트에대해 반응한다.
 
-### 용어정리
+### 📄1. 용어정리
 
 1. Publisher(Sender, raise) : 이벤트를 정의하고 일으키는 주체인 클래스다.
 2. Subscriber(receiver, eventhandler) : 이벤트 발생시 작동하는 동작
 3. Client : Publisher, Subscriber 둘다 아니지만, 이 두개를 연결(구독)시키는 "코드.cs"
 
-### 2. Eventhandler & Event & EventArgs
+### 📄 2. Eventhandler & Event & EventArgs
 
 #### 1). Eventhandler
 
@@ -127,7 +127,7 @@ ebook:
     커스텀). delegate void CustomEventHandler(object? sender, CustomEventArgs e) someCustomEvent;
     ```
 
-### 3. Publisher & Subscriber & Client
+### 📄 3. Publisher & Subscriber & Client
 
 #### 1). Publisher(Sender, raise)
 
@@ -158,9 +158,9 @@ ebook:
 
 
 #### 2). Subscriber(receiver, eventhandler)
-*\#receiver \#handler \#매서드*
+*\#receiver \#handler \#메서드*
 
-**다른 클래스가 가지고 있는 매서드다. 함수다.**
+**다른 클래스가 가지고 있는 메서드다. 함수다.**
 
 * 이 함수는 다음과 같은 특징을 가진다.
     1. subscribe(receive) : 방장을 ***"구독하고 알림을 받을준비"*** 를 한다.
@@ -281,13 +281,13 @@ class Program
 ```
 </details>
 
-### 4. 파생 클래스에 이벤트
+### 📄 4. 파생 클래스에 이벤트
 #### 파생 클래스에서도 발생할 수 있도록 기본 클레스에서 이벤트 선언
 
 파생 클래스에서는 기본 클래스 내에서 선언된 이벤트를 직접호출할 수 없다
 그러면 파생클래스에서 어떨게 기본클래스 이벤트를 호출할 수 있을까?
 
-1. 이벤트를 래핑하는 기본 클래스에서 보호된 호출 매서드를 만들어야한다.
+1. 이벤트를 래핑하는 기본 클래스에서 보호된 호출 메서드를 만들어야한다.
 2. 그리고 Override 하여 재정의한다면 간접적으로 이벤트 호출이 가능하다
 3. 기본 클래스에서 가상 이벤트를 선언하지 말고 파생 클래스에서 재정의합니다.
 
@@ -464,8 +464,8 @@ namespace EventDrivenExample_5
 </details>
 
 
-### 5. 인터페이스 이벤트
-#### 인터페이스는 사실.. 추상매서드 말고도 인터페이스도 선언할 수 있었다..
+### 📄 5. 인터페이스 이벤트
+#### 인터페이스는 사실.. 추상메서드 말고도 인터페이스도 선언할 수 있었다..
 
 클래스에서 인터페이스 이벤트를 구현하는 방법을 보자.
 
@@ -620,7 +620,13 @@ namespace EventDrivenExample_6
 }
 ```
 </details>
-### 참조
+### 📄 참조
 https://learn.microsoft.com/ko-kr/dotnet/csharp/events-overview
 https://learn.microsoft.com/ko-kr/dotnet/standard/events/
 https://learn.microsoft.com/ko-kr/dotnet/standard/asynchronous-programming-patterns/event-based-asynchronous-pattern-eap
+
+https://bora-game-develop-history.tistory.com/6
+
+https://bloodstrawberry.tistory.com/630
+
+https://drehzr.tistory.com/1274 
