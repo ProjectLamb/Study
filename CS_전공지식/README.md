@@ -20,12 +20,16 @@
    * 델리게이트
    * 이벤트 지향 아키텍쳐 (Event Driven Architecture)
 
-3. #### [비동기 프로그래밍](https://learn.microsoft.com/ko-kr/dotnet/csharp/programming-guide/concepts/async/)
+3. #### [비동기 프로그래밍](./Async_비동기/README.md)
    * async
    * 코루틴
    * [데브 시스터즈](https://tech.devsisters.com/posts/crunchy-concurrency-swift/)
 
-4. #### [언어론]()
+4. #### [함수형 프로그래밍](./LINQ_람다식/README.md)
+   * LINQ
+   * UniRX
+
+5. #### [언어론]()
    * 자료구조, 타입
    * [데브 시스터즈 타입 이론](https://tech.devsisters.com/posts/programming-languages-1-type-theory)
    * 연산자.
